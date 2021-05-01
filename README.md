@@ -13,6 +13,7 @@ The second step is go get the chat_id:
     Visit https://api.telegram.org/bot<YourBOTToken>/getUpdates and get the chat_id under the key message['chat']['id'].
 
 Replace Token ,chatID, date, pincode.
+better to run for currentDate
 
 update the sleep and scriptEndTime according to you
 
