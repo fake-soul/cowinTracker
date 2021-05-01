@@ -47,7 +47,7 @@ while round(time.time() * 1000) < epocEnd :
                 for j in range(sessionsLength):
                     capacity = center["sessions"][j]["available_capacity"]
                     ageLimit = center["sessions"][j]["min_age_limit"]
-                    if (capacity >= 0) and ageLimit == 45:
+                    if (capacity > 0) and ageLimit == 18:
                         avaibleCount = avaibleCount + 1
                         message = message + str(center["name"]) + "|"
 
